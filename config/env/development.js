@@ -2,9 +2,11 @@ module.exports = {
     dbConnectionConfig: {
         database: 'wc_db',
         user: 'root',
-        password: '1234',
+        // password: '1234',]
+        password: 'D@!cel16',
         options: {
-            host: 'localhost',
+            // host: 'localhost',
+            host: '159.228.166.203',
             dialect: 'mysql',
             dialectOptions: {
                 dateStrings: true,
