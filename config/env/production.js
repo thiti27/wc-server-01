@@ -20,7 +20,7 @@ module.exports = {
                 dialectOptions: {
                     collate: 'utf8_general_ci'
                 },
-                timestamps: flase
+                timestamps: false
             },
             timezone: '+07:00',
             pool: {
