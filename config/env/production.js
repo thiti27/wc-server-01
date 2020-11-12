@@ -1,15 +1,9 @@
 module.exports = {
     dbConnectionConfig: {
-        // database: 'wc_db',
-        // user: 'root',
-        // // password: '1234',]
-        // password: 'D@!cel16',
         database: 'IxJIbPqSgm',
         user: 'IxJIbPqSgm',
         password: 'LOx8ot3ZyM',
         options: {
-            // host: 'localhost',
-            // host: '159.228.166.203',
             host: 'remotemysql.com',
             dialect: 'mysql',
             logging: false,
@@ -24,7 +18,7 @@ module.exports = {
                 dialectOptions: {
                     collate: 'utf8_general_ci'
                 },
-                timestamps: false
+                timestamps: true
             },
             timezone: '+07:00',
             pool: {
